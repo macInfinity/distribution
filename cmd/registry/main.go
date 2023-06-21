@@ -20,6 +20,9 @@ import (
 	_ "github.com/distribution/distribution/v3/registry/storage/driver/swift"
 )
 
+//
+// small-change
+
 func main() {
 	registry.RootCmd.Execute()
 }
